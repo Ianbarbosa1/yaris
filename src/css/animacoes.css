@@ -1,0 +1,32 @@
+@keyframes slide {
+    0%{
+        background-image: url(../imagens/fisiotarapia.jpg);
+    }
+    25%{
+        background-image: url(../imagens/pilates.jpg);
+    }
+    50%{
+        background-image: url(../imagens/acumputura.jpg);
+    }
+    100%{
+        background-image: url(../imagens/ventosa.jpg);
+    }
+}
+
+@keyframes degrade {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-1000px);
+    }
+}
