@@ -1,9 +1,5 @@
 @media screen and (min-width: 350px) and (max-width: 479px) {
     .menu {
-        height: 110px;
-        width: 100%;
-        justify-content: space-between;
-
         & img{
           margin-left: 10px;
         }
@@ -31,7 +27,7 @@
     /*SOBRE*/
     .sobre {
         flex-direction: column;
-        padding-bottom: 50px;
+        padding-bottom: 70px;
     }
     .imagens-sobre {
         height: 400px;
@@ -44,7 +40,7 @@
         & h1 {
             font-size:25px;
         }
-        & h3 {
+        & span {
             font-size: 25px;
         }
         & p {
@@ -60,7 +56,6 @@
 
         & img {
             height: 230px;
-            border-radius: 20px;
         }
     }
     .chamada-texto {
@@ -98,7 +93,6 @@
     }
     .patologias-interno {
         gap: 50px;
-        flex-wrap: wrap;
     }
 
     /*FEEDBACKS*/
@@ -115,7 +109,7 @@
         & p {
             font-size: 17px;
         }
-        & h2 {
+        & span {
             font-size: 18px;
         }
     }
@@ -123,7 +117,7 @@
     /*LOCALIZAÇÃO*/
     .localizacao{
         padding: 50px 5px;
-        flex-direction: column-reverse;
+        flex-direction: column;
 
         & iframe{
             width: 100%;
@@ -131,17 +125,14 @@
     }
     .endereco{
         gap: 10px;
-        text-align: center;
 
-        & h2, h3{
-          font-size: 18px;
+        & h1{
+          font-size: 19px;
         }
         & p{
-          font-size: 18px;
-          color: #181818;
-          font-weight: 500;
+          font-size: 17px;
         }
-    }      
+    }
 
     /*RODAPÉ*/
     .empresa{
@@ -164,10 +155,6 @@
 
 @media screen and (min-width: 480px) and (max-width: 689px) {
     .menu {
-        height: 110px;
-        width: 100%;
-        justify-content: space-between;
-      
         & img{
           margin-left: 20px;
         }
@@ -196,7 +183,7 @@
     /*SOBRE*/
     .sobre {
         flex-direction: column;
-        padding-bottom: 50px;
+        padding-bottom: 70px;
     }
     .imagens-sobre {
         height: 450px;
@@ -210,7 +197,7 @@
             font-size: 30px;
         }
         
-        & h3 {
+        & span {
             font-size: 25px;
         }
         
@@ -226,7 +213,6 @@
         flex-direction: column;
         & img {
             height: 300px;
-            border-radius: 20px;
         }
     }
     .chamada-texto {
@@ -257,15 +243,13 @@
     .patologias {
         padding: 50px 0px;
         background-size: 0px;
+
         & h1 {
-            color: rgb(240, 255, 246);
             font-size: 30px;
-            font-weight: 500;
         }
     }
     .patologias-interno {
         gap: 50px;
-        flex-wrap: wrap;
     }
 
     /*FEEDBACKS*/
@@ -281,7 +265,7 @@
         & p {
             font-size: 17px;
         }
-        & h2 {
+        & span {
             font-size: 18px;
         }
     }
@@ -289,7 +273,8 @@
     /*LOCALIZAÇÃO*/
     .localizacao{
         padding: 50px 20px;
-        flex-direction: column-reverse;
+        flex-direction: column;
+
         & iframe{
             width: 100%;
         }
@@ -297,13 +282,8 @@
     .endereco{
         gap: 10px;
 
-        & h2, h3{
-          font-size: 20px;
-        }
         & p{
           font-size: 18px;
-          color: #181818;
-          font-weight: 500;
         }
     }      
 
@@ -372,7 +352,6 @@
     }
     .patologias-interno {
         gap: 50px 50px;
-        flex-wrap: wrap;
     }
 
     /*FEEDBACKS*/
@@ -387,7 +366,8 @@
 
     /*LOCALIZAÇÃO*/
     .localizacao{
-        flex-direction: column-reverse;
+        flex-direction: column;
+        
         & iframe{
             width: 550px;
         }
@@ -437,7 +417,7 @@
         & h1 {
             font-size: 35px;
         }
-        & h3 {
+        & span {
             font-size: 25px;
         }
         & p {
@@ -467,7 +447,6 @@
     }
     .patologias-interno {
         gap: 50px 150px;
-        flex-wrap: wrap;
     }
 
     /*LOCALIZAÇÃO*/

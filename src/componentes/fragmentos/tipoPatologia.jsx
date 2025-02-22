@@ -4,7 +4,7 @@ export function TipoPatologia({ nome, one, two, three }) {
   return (
     <>
       <div className="patologia">
-        <h3>{nome}</h3>
+        <h2>{nome}</h2>
         <FaArrowDown className="seta" />
         <p>{one}</p>
         <p>{two}</p>

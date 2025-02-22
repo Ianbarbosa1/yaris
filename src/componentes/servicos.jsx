@@ -1,5 +1,6 @@
 import { TipoServico } from "./fragmentos/tipoServico";
 
+/*IMAGENS*/
 import fisioterapia from "../imagens/fisioterapia.png";
 import pilates from "../imagens/pilates.png";
 import rpg from "../imagens/rpg.png";

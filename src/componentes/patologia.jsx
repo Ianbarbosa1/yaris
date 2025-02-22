@@ -4,10 +4,10 @@ export function Patologias() {
   return (
     <>
       <section className="patologias">
-        <div>
+        <nav>
           <h1>Soluções de Principais Patologias</h1>
           <div className="detalhe"></div>
-        </div>
+        </nav>
 
         <section className="patologias-interno">
           <TipoPatologia

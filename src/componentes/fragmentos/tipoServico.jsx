@@ -4,7 +4,7 @@ export function TipoServico({ imagem, nome, descricao }) {
     <>
       <section className="servico">
         <img src={imagem} alt={nome} />
-        <h2>{nome}</h2>
+        <h1>{nome}</h1>
         <p>{descricao}</p>
       </section>
     </>

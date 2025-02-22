@@ -34,7 +34,7 @@ footer{
 
 /*COMPONENTES*/
 /*FLEX*/
-.menu, .sobre, .texto-sobre, .chamada, .servicos, .servico, .patologias, .patologias-interno, .feedbacks, .feedback-interno, .feed, .estrelas, .indicadores, .localizacao, .endereco, .estrutura, .redes{
+.menu, .sobre, .texto-sobre, .chamada, .servicos, .servico, .patologias, .patologias-interno, .feedbacks, .feedback-interno, .feed, .estrelas, .indicadores, .localizacao, .endereco, .titulo-endereco, .estrutura, .redes{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,7 +111,7 @@ footer{
 .imagens-sobre {
   height: 700px;
   width: 50%;
-  animation: slide 10s linear infinite;
+  animation: slide 20s linear infinite;
   background-position: center;
   background-size: cover;
   background-size: 100% 100%;
@@ -130,7 +130,7 @@ footer{
     padding: 10px 20px;
   }
 
-  & h3 {
+  & span {
     color: #004643;
     font-size: 35px;
     font-weight: 400;
@@ -213,7 +213,7 @@ footer{
     height: 80px;
   }
 
-  & h2 {
+  & h1 {
     font-size: 25px;
     font-weight: 500;
     color: #004643;
@@ -245,7 +245,7 @@ footer{
     font-weight: 500;
   }
 
-  & h3 {
+  & h2 {
     color: rgb(240, 255, 249);
     font-weight: 600;
   }
@@ -328,7 +328,7 @@ footer{
     font-weight: 500;
   }
 
-  & h2 {
+  & span {
     font-size: 20px;
     font-weight: 500;
     color: #004643;
@@ -356,26 +356,37 @@ footer{
     width: 650px;
     border: none;
     border-radius: 10px;
-    filter: drop-shadow(0px 0px 5px rgb(160, 156, 156));
+    box-shadow: 0px 0px 10px #004643;
   }
 }
 .endereco{
   flex-direction: column;
   align-items: start;
   gap: 10px;
+  border: 1px solid #abd1c6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #004643;
   
-  & h2, h3{
-    color:#181818;
-    font-weight:500;
-    font-size: 23px;
-  }
-  & h3{
-    margin-top: 15px;
-  }
   & p{
     font-size: 20px;
-    color: #181818;
+    color: #004643;
     font-weight: 500;
+  }
+}
+.titulo-endereco{
+  gap: 10px;
+  margin-top: 15px;
+  & nav{
+    height: 5px;
+    width: 20px;
+    background-image: linear-gradient(to right, #004643, transparent);
+  }
+
+  & h1{
+    color:#004643;
+    font-weight:600;
+    font-size: 23px;
   }
 }
 
