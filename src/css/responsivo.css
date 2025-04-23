@@ -1,0 +1,501 @@
+@media screen and (min-width: 350px) and (max-width: 479px) {
+    .menu {
+        & img {
+            margin-left: 10px;
+        }
+        & a {
+            margin-right: 10px;
+        }
+    }
+
+    /*HEADER*/
+    .titulos-header {
+        left: 0px;
+        top: 40%;
+        text-align: center;
+        & h1 {
+            font-size: 35px;
+        }
+        & p {
+            font-size: 18px;
+        }
+        & a {
+            font-size: 18px;
+        }
+    }
+
+    /*SOBRE*/
+    .sobre {
+        flex-direction: column;
+        padding-bottom: 70px;
+    }
+    .imagens-sobre {
+        height: 400px;
+        width: 100%;
+    }
+    .texto-sobre {
+        width: 90%;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        & h1 {
+             font-size: 25px;
+        }
+        & span {
+            font-size: 25px;
+        }
+        & p {
+            font-size: 18px;
+        }
+    }
+
+    /*CHAMADA*/
+    .chamada {
+        gap: 50px;
+        padding: 100px 5px;
+        flex-direction: column;
+        & img {
+            height: 230px;
+        }
+    }
+    .chamada-texto {
+        text-align: center;
+        & h1 {
+            margin-bottom: 5px;
+            font-size: 25px;
+        }
+        & p {
+            font-size: 19px;
+        }
+        & a {
+            font-size: 18px;
+        }
+    }
+
+    /*SERVICOS*/
+    .servicos {
+        padding: 50px 0px;
+        gap: 50px;
+        background-size: 0px;
+    }
+    .servico {
+        width: 300px;
+    }
+
+    /*PATOLOGIAS*/
+    .patologias {
+        padding: 50px 0px;
+        background-size: 0px;
+        & h1 {
+            font-size: 25px;
+        }
+    }
+    .patologias-interno {
+        gap: 50px;
+    }
+
+    /*FEEDBACKS*/
+    .feedbacks {
+        & h1 {
+            font-size: 25px;
+        }
+    }
+    .feed {
+        height: 250px;
+        min-width: 330px;
+        & p {
+            font-size: 17px;
+        }
+        & span {
+            font-size: 18px;
+        }
+    }
+
+    /*LOCALIZAÇÃO*/
+    .localizacao {
+        padding: 50px 5px;
+        flex-direction: column;
+        & iframe {
+            width: 100%;
+        }
+    }
+    .endereco {
+        gap: 10px;
+        & h1 {
+            font-size: 19px;
+        }
+        & p {
+            font-size: 17px;
+        }
+    }
+
+    /*RODAPÉ*/
+    .empresa {
+        & img {
+            height: 100px;
+            margin-top: 20px;
+        }
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0px);
+        }
+
+        100% {
+            transform: translateX(-1550px);
+        }
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 689px) {
+    .menu {
+        & img {
+            margin-left: 20px;
+        }
+
+        & a {
+            margin-right: 20px;
+        }
+    }
+
+    /*HEADER*/
+    .titulos-header {
+        left: 0px;
+        top: 40%;
+        text-align: center;
+        & h1 {
+            font-size: 40px;
+            width: 100%;
+        }
+        & p {
+            font-size: 20px;
+        }
+        & a {
+            font-size: 18px;
+        }
+    }
+
+    /*SOBRE*/
+    .sobre {
+        flex-direction: column;
+        padding-bottom: 70px;
+    }
+    .imagens-sobre {
+        height: 450px;
+        width: 100%;
+    }
+    .texto-sobre {
+        width: 90%;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        & h1 {
+            font-size: 30px;
+        }
+        & span {
+            font-size: 25px;
+        }
+        & p {
+            font-size: 18px;
+        }
+    }
+
+    /*CHAMADA*/
+    .chamada {
+        gap: 50px;
+        padding: 100px 25px;
+        flex-direction: column;
+        & img {
+             height: 300px;
+        }
+    }
+
+    .chamada-texto {
+        text-align: center;
+        & h1 {
+            margin-bottom: 5px;
+            font-size: 30px;
+        }
+        & p {
+            margin: 20px 0px 35px 0px;
+            font-size: 19px;
+        }
+        & a {
+            font-size: 18px;
+        }
+    }
+
+    /*SERVICOS*/
+    .servicos {
+        padding: 50px 0px;
+        gap: 50px;
+        background-size: 0px;
+    }
+    .servico {
+        width: 300px;
+    }
+
+    /*PATOLOGIAS*/
+    .patologias {
+        padding: 50px 0px;
+        background-size: 0px;
+        & h1 {
+            font-size: 30px;
+        }
+    }
+    .patologias-interno {
+        gap: 50px;
+    }
+
+    /*FEEDBACKS*/
+    .feedbacks {
+        & h1 {
+            font-size: 30px;
+        }
+    }
+    .feed {
+        height: 250px;
+        min-width: 330px;
+        & p {
+            font-size: 17px;
+        }
+        & span {
+            font-size: 18px;
+        }
+    }
+
+    /*LOCALIZAÇÃO*/
+    .localizacao {
+        padding: 50px 20px;
+        flex-direction: column;
+        & iframe {
+            width: 100%;
+        }
+    }
+    .endereco {
+        gap: 10px;
+        & p {
+            font-size: 18px;
+        }
+    }
+
+    /*RODAPÉ*/
+    .empresa {
+        & img {
+            height: 140px;
+        }
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0px);
+        }
+
+        100% {
+            transform: translateX(-1450px);
+        }
+    }
+}
+
+@media screen and (min-width: 690px) and (max-width: 849px) {
+    /*HEADER*/
+    .titulos-header {
+        left: 50px;
+        top: 40%;
+        & h1 {
+            font-size: 60px;
+            width: 100%;
+        }
+    }
+
+    /*SOBRE*/
+    .sobre {
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .imagens-sobre {
+        height: 650px;
+        width: 100%;
+    }
+    .texto-sobre {
+        width: 90%;
+        gap: 20px;
+    }
+
+    /*CHAMADA*/
+    .chamada {
+        gap: 50px;
+        padding: 100px 25px;
+        flex-direction: column;
+    }
+
+    /*SERVICOS*/
+    .servicos {
+        gap: 50px;
+        background-size: 250px;
+    }
+    .servico {
+        width: 300px;
+    }
+
+    /*PATOLOGIAS*/
+    .patologias {
+        background-size: 250px;
+    }
+    .patologias-interno {
+        gap: 50px 50px;
+    }
+
+    /*FEEDBACKS*/
+    .feed {
+        height: 250px;
+        min-width: 400px;
+
+        & p {
+            font-size: 18px;
+        }
+    }
+
+    /*LOCALIZAÇÃO*/
+    .localizacao {
+        flex-direction: column;
+
+        & iframe {
+            width: 550px;
+        }
+    }
+
+    /*RODAPÉ*/
+    .empresa {
+        & img {
+            height: 150px;
+        }
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0px);
+        }
+
+        100% {
+            transform: translateX(-1600px);
+        }
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 999px) {
+    /*HEADER*/
+    .titulos-header {
+        left: 100px;
+        top: 40%;
+        & h1 {
+            font-size: 70px;
+            max-width: 800px;
+        }
+    }
+
+    /*SOBRE*/
+    .sobre {
+        gap: 15px;
+    }
+    .imagens-sobre {
+        height: 650px;
+        width: 60%;
+    }
+    .texto-sobre {
+        width: 40%;
+        gap: 20px;
+        & h1 {
+            font-size: 35px;
+        }
+        & span {
+            font-size: 25px;
+        }
+        & p {
+            font-size: 17px;
+        }
+    }
+
+    /*CHAMADA*/
+    .chamada {
+        gap: 20px;
+        padding: 100px 10px;
+        & img {
+            height: 250px;
+        }
+    }
+
+    /*SERVICOS*/
+    .servicos {
+        gap: 40px;
+        background-size: 300px;
+    }
+
+    /*PATOLOGIAS*/
+    .patologias {
+        background-size: 300px;
+    }
+    .patologias-interno {
+        gap: 50px 150px;
+    }
+
+    /*LOCALIZAÇÃO*/
+    .localizacao {
+        padding: 50px 20px;
+        gap: 30px;
+    }
+
+    @keyframes scroll {
+         0% {
+            transform: translateX(0px);
+        }
+
+        100% {
+            transform: translateX(-1950px);
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    /*CHAMADA*/
+    .chamada {
+        & img {
+            height: 300px;
+        }
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0px);
+        }
+
+        100% {
+            transform: translateX(-1800px);
+        }
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    @keyframes scroll {
+        0% {
+            transform: translateX(0px);
+        }
+
+        100% {
+            transform: translateX(-1700px);
+        }
+    }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1700px) {
+    @keyframes scroll {
+        0% {
+            transform: translateX(0px);
+        }
+
+        100% {
+            transform: translateX(-1500px);
+        }
+     }
+}

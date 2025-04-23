@@ -1,0 +1,49 @@
+@keyframes slide {
+    0% {
+        background-image: url(./src/imagens/fisiotarapia.jpg);
+    }
+
+    20% {
+        background-image: url(./src/imagens/pilates.jpg);
+    }
+
+    32% {
+        background-image: url(./src/imagens/acumputura.jpg);
+    }
+
+    48% {
+        background-image: url(./src/imagens/ventosa.jpg);
+    }
+
+    64% {
+        background-image: url(./src/imagens/auriculoterapia.jpg);
+    }
+
+    80% {
+        background-image: url(./src/imagens/linfatica.jpg);
+    }
+
+    100% {
+        background-image: url(./src/imagens/miofacial.jpg);
+    }
+}
+
+@keyframes degrade {
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-1000px);
+    }
+}

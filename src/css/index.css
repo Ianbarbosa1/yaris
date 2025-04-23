@@ -1,0 +1,417 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+/*APP*/
+main,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    height: 100vh;
+    width: 100%;
+    content: '';
+    background-image: url(./src/imagens/back.jpg);
+    background-position: center;
+    background-size: cover;
+}
+main {
+    flex-direction: column;
+    height: 100%;
+}
+footer {
+    height: 500px;
+    background-color: #181818;
+}
+
+
+/*COMPONENTES*/
+/*FLEX*/
+.menu, .sobre, .texto-sobre, .chamada, .servicos, .servico, .patologias, .patologias-interno, .feedbacks, .feedback-interno, .feed, .estrelas, .indicadores,.localizacao, .endereco, .titulo-endereco, .estrutura, .redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*HEADER*/
+.menu {
+    height: 110px;
+    width: 100%;
+    justify-content: space-between;
+
+    & img {
+        height: 100px;
+        border-radius: 50%;
+        margin-left: 100px;
+    }
+    & a {
+        color: white;
+        padding: 10px 15px;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin-right: 100px;
+        font-weight: 500;
+    }
+    & a:hover {
+        transition: all 1s;
+        background-color: #004643;
+    }
+}
+
+.titulos-header {
+    position: absolute;
+    left: 100px;
+    top: 40%;
+
+    & h1 {
+        font-size: 80px;
+        color: white;
+        max-width: 800px;
+        font-weight: 600;
+    }
+    & p {
+        color: white;
+        font-size: 25px;
+        font-weight: 400;
+        max-width: 800px;
+        margin-bottom: 50px;
+    }
+    & a {
+        padding: 15px 20px;
+        font-size: 20px;
+        border-radius: 5px;
+        background-color: #abd1c6;
+        color: #004643;
+        transition: all 1s;
+    }
+    & a:hover {
+        background-color: #004643;
+        color: #abd1c6;
+    }
+}
+
+/*SOBRE*/
+.sobre {
+    gap: 50px;
+    justify-content: center;
+    width: 100%;
+    background-color: #abd1c6;
+}
+.imagens-sobre {
+    height: 700px;
+    width: 50%;
+    animation: slide 20s linear infinite;
+    background-position: center;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.texto-sobre {
+    width: 50%;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+
+    & h1 {
+        color: aliceblue;
+        font-size: 40px;
+        letter-spacing: 2px;
+        background-color: #004643;
+        padding: 10px 20px;
+    }
+    & span {
+        color: #004643;
+        font-size: 35px;
+        font-weight: 400;
+    }
+    & p {
+        font-size: 20px;
+        color: #004643;
+    }
+}
+
+/*CHAMADA*/
+.chamada {
+    width: 100%;
+    padding: 100px;
+    background-color: #004643;
+    gap: 50px;
+
+    & img {
+        height: 450px;
+        border-radius: 20px;
+    }
+}
+.chamada-texto {
+    flex-direction: column;
+
+    & h1 {
+        margin-bottom: 5px;
+        font-size: 35px;
+        color: aliceblue;
+        font-weight: 500;
+    }
+    & p {
+        margin: 20px 0px 35px 0px;
+        font-size: 20px;
+        color: #abd1c6;
+    }
+    & a {
+        color: #004643;
+        font-size: 20px;
+        padding: 10px 17px;
+        background-color: #abd1c6;
+        border-radius: 5px;
+        transition: all 0.5s;
+        &:hover {
+            filter: drop-shadow(0px 0px 5px #abd1c6);
+        }
+    }
+}
+.detalhe {
+    height: 5px;
+    width: 100%;
+    background-image: linear-gradient(to right, #abd1c6, #004643, #004643);
+    background-size: 300% 100%;
+    animation: degrade 10s infinite linear alternate;
+}
+
+/*SERVICOS*/
+.servicos {
+    width: 100%;
+    gap: 120px;
+    flex-wrap: wrap;
+    padding: 100px 0px;
+    background-image: url(./src/imagens/sobre.svg);
+    background-position: bottom right;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+}
+.servico {
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+
+    & img {
+        height: 80px;
+    }
+    & h1 {
+        font-size: 25px;
+        font-weight: 500;
+        color: #004643;
+    }
+    & p {
+        font-size: 16px;
+        text-align: center;
+        font-weight: 500;
+    }
+}
+
+/*PATOLOGIAS*/
+.patologias {
+    text-align: center;
+    padding: 100px 0px;
+    width: 100%;
+    background-color: #004643;
+    flex-direction: column;
+    gap: 50px;
+    background-image: url(./src/imagens/sobre.svg);
+    background-position: bottom left;
+    background-size: 400px;
+    background-repeat: no-repeat;
+
+    & h1 {
+        color: rgb(240, 255, 246);
+        font-size: 35px;
+        font-weight: 500;
+    }
+    & h2 {
+        color: rgb(240, 255, 249);
+        font-weight: 600;
+    }
+    & p {
+        margin-bottom: 3px;
+        color: #abd1c6;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+.patologias-interno {
+    gap: 100px 250px;
+    flex-wrap: wrap;
+}
+.patologia {
+    text-align: center;
+    border: 1px solid rgb(240, 255, 250);
+    padding: 20px 0px;
+    border-radius: 10px;
+    width: 300px;
+}
+.seta {
+    color: #abd1c6;
+    margin: 10px 0px;
+}
+
+/*FEEDBACKS*/
+.feedbacks {
+    flex-direction: column;
+    padding: 100px 0px;
+    background-color: whitesmoke;
+    width: 100%;
+    gap: 50px;
+
+    & h1 {
+        font-size: 35px;
+        font-weight: 500;
+        text-align: center;
+    }
+    & a {
+        font-size: 18px;
+        font-weight: 500;
+        color: #abd1c6;
+        background-color: #004643;
+        padding: 20px 25px;
+        border-radius: 20px;
+        transition: all 1s ease;
+        &:hover {
+            background-color: #abd1c6;
+            color: #004643;
+        }
+    }
+}
+.feedback-interno {
+    justify-content: start;
+    width: 98%;
+    height: 400px;
+    gap: 50px;
+    overflow-x: hidden;
+    padding: 0px 50px;
+}
+.feed {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    height: 350px;
+    min-width: 500px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #abd1c6;
+    filter: drop-shadow(0px 0px 5px gray);
+    animation: scroll 20s linear infinite alternate;
+
+    & p {
+        font-size: 20px;
+        color: #181818;
+        font-weight: 500;
+    }
+    & span {
+        font-size: 20px;
+        font-weight: 500;
+        color: #004643;
+    }
+}
+.estrelas {
+    color: goldenrod;
+    gap: 3px;
+
+    & svg {
+        font-size: 25px;
+        filter: drop-shadow(0px 0px 1px black);
+    }
+}
+
+/*LOCALIZAÇÃO*/
+.localizacao {
+    padding: 50px;
+    background-color: #abd1c6;
+    width: 100%;
+    gap: 50px;
+
+    & iframe {
+        height: 350px;
+        width: 650px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px #004643;
+    }
+}
+.endereco {
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    border: 1px solid #abd1c6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #004643;
+
+    & p {
+        font-size: 20px;
+        color: #004643;
+        font-weight: 500;
+    }
+}
+.titulo-endereco {
+    gap: 10px;
+    margin-top: 15px;
+
+    & nav {
+        height: 5px;
+        width: 20px;
+        background-image: linear-gradient(to right, #004643, transparent);
+    }
+    & h1 {
+        color: #004643;
+        font-weight: 600;
+        font-size: 23px;
+    }
+}
+
+/*RODAPÉ*/
+.empresa {
+    width: 100%;
+    text-align: center;
+
+    & img {
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    & p {
+        font-size: 20px;
+        color: white;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+    & h1 {
+        color: #abd1c6;
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+}
+.estrutura {
+    justify-content: space-around;
+}
+.redes {
+    gap: 10px;
+    margin-top: 20px;
+
+    & svg {
+        font-size: 40px;
+        border: 1px solid;
+        padding: 5px;
+        border-radius: 50%;
+        color: #abd1c6;
+        cursor: pointer;
+        &:hover {
+            border: 2px solid;
+        }
+    }
+}
