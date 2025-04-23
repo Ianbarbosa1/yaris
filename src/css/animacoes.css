@@ -1,30 +1,30 @@
 @keyframes slide {
     0% {
-        background-image: url(./src/imagens/fisiotarapia.jpg);
+        background-image: url(../imagens/fisiotarapia.jpg);
     }
 
     20% {
-        background-image: url(./src/imagens/pilates.jpg);
+        background-image: url(../imagens/pilates.jpg);
     }
 
     32% {
-        background-image: url(./src/imagens/acumputura.jpg);
+        background-image: url(../imagens/acumputura.jpg);
     }
 
     48% {
-        background-image: url(./src/imagens/ventosa.jpg);
+        background-image: url(../imagens/ventosa.jpg);
     }
 
     64% {
-        background-image: url(./src/imagens/auriculoterapia.jpg);
+        background-image: url(../imagens/auriculoterapia.jpg);
     }
 
     80% {
-        background-image: url(./src/imagens/linfatica.jpg);
+        background-image: url(../imagens/linfatica.jpg);
     }
 
     100% {
-        background-image: url(./src/imagens/miofacial.jpg);
+        background-image: url(../imagens/miofacial.jpg);
     }
 }
 
