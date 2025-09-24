@@ -1,14 +1,13 @@
 @media screen and (min-width: 350px) and (max-width: 479px) {
+    /*ENTRADA*/
     .menu {
         & img {
-            margin-left: 10px;
+            margin-left: 20px;
         }
         & a {
-            margin-right: 10px;
+            margin-right: 20px;
         }
     }
-
-    /*HEADER*/
     .titulos-header {
         left: 0px;
         top: 40%;
@@ -22,6 +21,9 @@
         & a {
             font-size: 18px;
         }
+    }
+    .estrutura-redes{
+        bottom: 50px;
     }
 
     /*SOBRE*/
@@ -52,20 +54,29 @@
     /*CHAMADA*/
     .chamada {
         gap: 50px;
-        padding: 100px 5px;
+        padding: 70px 5px;
         flex-direction: column;
         & img {
             height: 230px;
         }
     }
     .chamada-texto {
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         & h1 {
             margin-bottom: 5px;
             font-size: 25px;
         }
+        ul{
+            font-size: 13px;
+        }
+        li{
+            font-size: 11px;
+        }
         & p {
-            font-size: 19px;
+            font-size: 13px;
+            text-align: center;
         }
         & a {
             font-size: 18px;
@@ -73,25 +84,25 @@
     }
 
     /*SERVICOS*/
-    .servicos {
-        padding: 50px 0px;
-        gap: 50px;
-        background-size: 0px;
-    }
-    .servico {
-        width: 300px;
-    }
-
     /*PATOLOGIAS*/
-    .patologias {
+    .patologias, .servicos {
         padding: 50px 0px;
         background-size: 0px;
         & h1 {
             font-size: 25px;
         }
     }
-    .patologias-interno {
-        gap: 50px;
+    .patologias-interno, .servicos-interno {
+        gap: 30px;
+        & h1, h2{
+            font-size: 20px;
+        }
+        & p{
+            font-size: 14px;
+        }
+    }
+    .servico{
+        height: 190px;
     }
 
     /*FEEDBACKS*/
@@ -113,19 +124,10 @@
 
     /*LOCALIZAÇÃO*/
     .localizacao {
-        padding: 50px 5px;
-        flex-direction: column;
+        padding: 10px;
         & iframe {
             width: 100%;
-        }
-    }
-    .endereco {
-        gap: 10px;
-        & h1 {
-            font-size: 19px;
-        }
-        & p {
-            font-size: 17px;
+            height: 300px;
         }
     }
 
@@ -149,6 +151,7 @@
 }
 
 @media screen and (min-width: 480px) and (max-width: 689px) {
+    /*HEADER*/
     .menu {
         & img {
             margin-left: 20px;
@@ -158,8 +161,6 @@
             margin-right: 20px;
         }
     }
-
-    /*HEADER*/
     .titulos-header {
         left: 0px;
         top: 40%;
@@ -174,6 +175,9 @@
         & a {
             font-size: 18px;
         }
+    }
+    .estrutura-redes{
+        bottom: 50px;
     }
 
     /*SOBRE*/
@@ -204,22 +208,30 @@
     /*CHAMADA*/
     .chamada {
         gap: 50px;
-        padding: 100px 25px;
+        padding: 50px 10px;
         flex-direction: column;
         & img {
              height: 300px;
         }
     }
-
     .chamada-texto {
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         & h1 {
             margin-bottom: 5px;
             font-size: 30px;
         }
+        ul{
+            font-size: 16px;
+        }
+        li{
+            font-size: 14px;
+            line-height: 18px;
+        }
         & p {
-            margin: 20px 0px 35px 0px;
-            font-size: 19px;
+            font-size: 16px;
+            text-align: center;
         }
         & a {
             font-size: 18px;
@@ -227,25 +239,19 @@
     }
 
     /*SERVICOS*/
-    .servicos {
-        padding: 50px 0px;
-        gap: 50px;
-        background-size: 0px;
-    }
-    .servico {
-        width: 300px;
-    }
-
     /*PATOLOGIAS*/
-    .patologias {
+    .patologias, .servicos {
         padding: 50px 0px;
         background-size: 0px;
         & h1 {
             font-size: 30px;
         }
     }
-    .patologias-interno {
+    .patologias-interno, .servicos-interno {
         gap: 50px;
+        & h1{
+            font-size: 25px;
+        }
     }
 
     /*FEEDBACKS*/
@@ -267,16 +273,10 @@
 
     /*LOCALIZAÇÃO*/
     .localizacao {
-        padding: 50px 20px;
-        flex-direction: column;
+        padding: 20px;
         & iframe {
             width: 100%;
-        }
-    }
-    .endereco {
-        gap: 10px;
-        & p {
-            font-size: 18px;
+            height: 400px;
         }
     }
 
@@ -299,7 +299,7 @@
 }
 
 @media screen and (min-width: 690px) and (max-width: 849px) {
-    /*HEADER*/
+    /*ENTRADA*/
     .titulos-header {
         left: 50px;
         top: 40%;
@@ -307,6 +307,9 @@
             font-size: 60px;
             width: 100%;
         }
+    }
+    .estrutura-redes{
+        bottom: 50px;
     }
 
     /*SOBRE*/
@@ -326,24 +329,25 @@
     /*CHAMADA*/
     .chamada {
         gap: 50px;
-        padding: 100px 25px;
+        padding: 50px 25px;
         flex-direction: column;
+    }
+    .chamada-texto{
+        width: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            text-align: center;
+        }
     }
 
     /*SERVICOS*/
-    .servicos {
-        gap: 50px;
-        background-size: 250px;
-    }
-    .servico {
-        width: 300px;
-    }
-
     /*PATOLOGIAS*/
-    .patologias {
+    .patologias, .servicos {
         background-size: 250px;
     }
-    .patologias-interno {
+    .patologias-interno, .servicos-interno {
         gap: 50px 50px;
     }
 
@@ -359,10 +363,8 @@
 
     /*LOCALIZAÇÃO*/
     .localizacao {
-        flex-direction: column;
-
         & iframe {
-            width: 550px;
+            width: 95%;
         }
     }
 
@@ -385,7 +387,7 @@
 }
 
 @media screen and (min-width: 850px) and (max-width: 999px) {
-    /*HEADER*/
+    /*ENTRADA*/
     .titulos-header {
         left: 100px;
         top: 40%;
@@ -393,6 +395,9 @@
             font-size: 70px;
             max-width: 800px;
         }
+    }
+    .estrutura-redes{
+        bottom: 50px;
     }
 
     /*SOBRE*/
@@ -419,31 +424,32 @@
 
     /*CHAMADA*/
     .chamada {
-        gap: 20px;
-        padding: 100px 10px;
-        & img {
-            height: 250px;
+        gap: 50px;
+        padding: 50px;
+        flex-direction: column;
+    }
+    .chamada-texto{
+        width: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            text-align: center;
         }
     }
 
     /*SERVICOS*/
-    .servicos {
-        gap: 40px;
-        background-size: 300px;
-    }
-
     /*PATOLOGIAS*/
-    .patologias {
+    .patologias, .servicos {
         background-size: 300px;
     }
-    .patologias-interno {
+    .patologias-interno, .servicos-interno {
         gap: 50px 150px;
     }
 
     /*LOCALIZAÇÃO*/
     .localizacao {
-        padding: 50px 20px;
-        gap: 30px;
+        padding: 50px;
     }
 
     @keyframes scroll {
@@ -458,11 +464,42 @@
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
+    /*ENTRADA*/
+    .estrutura-redes{
+        bottom: 50px;
+    }
+
     /*CHAMADA*/
     .chamada {
+        padding: 100px 30px;
+        gap: 10px;
+
         & img {
             height: 300px;
+        }   
+    }
+    .chamada-texto {
+        ul{
+            font-size: 17px;
         }
+        li{
+            font-size: 15px;
+            line-height: 18px;
+        }
+        p {
+            font-size: 17px;
+        }
+    }
+
+    /*SOBRE*/
+    .sobre {
+        gap: 15px;
+    }
+    .imagens-sobre {
+        width: 60%;
+    }
+    .texto-sobre {
+        width: 40%;
     }
 
     @keyframes scroll {
@@ -477,6 +514,24 @@
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
+    /*SOBRE*/
+    .imagens-sobre {
+        width: 60%;
+    }
+    .texto-sobre {
+        width: 40%;
+    }
+
+    /*CHAMADA*/
+    .chamada {
+        padding: 100px 30px;
+        gap: 30px;
+
+        & img {
+            height: 380px;
+        }
+    }
+    
     @keyframes scroll {
         0% {
             transform: translateX(0px);

@@ -1,4 +1,5 @@
 import logo from "../imagens/logo-yaris.jpg";
+import { FaInstagram, FaWhatsapp, FaFacebook } from "react-icons/fa";
 
 export function Header() {
   let hora = new Date().getHours();
@@ -32,6 +33,22 @@ export function Header() {
         <p>Clínica especializada em Fisioterapia, Pilates, RPG, Acupuntura, Ventosa, entre outros. Transformando o seu bem estar.</p>
         <a href={mensagem}>Agende Uma Aula</a>
       </section>
+
+      <nav className="estrutura-redes">
+        <div className="redes">
+          <a href="https://www.instagram.com/yarisfisio/">
+            <FaInstagram title="Instagram" />
+          </a>
+    
+          <a href="https://www.facebook.com/yarisfisio">
+            <FaFacebook title="Facebook" />
+          </a>
+    
+          <a href="https://wa.me/5521982871429">
+            <FaWhatsapp title="WhatsApp" />
+          </a>
+        </div>
+      </nav>
     </>
   );
 }
