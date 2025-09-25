@@ -110,14 +110,26 @@
         & h1 {
             font-size: 25px;
         }
+        & a {
+            padding: 15px 20px;
+        }
     }
     .feed {
-        height: 250px;
-        min-width: 330px;
+        margin-left: 10px;
+        gap: 10px;
+        padding: 10px;
+        height: 190px;
+        width: 300px;
+
         & p {
-            font-size: 17px;
+            font-size: 14px;
         }
         & span {
+            font-size: 15px;
+        }
+    }
+    .estrelas {
+        & svg {
             font-size: 18px;
         }
     }
@@ -136,16 +148,6 @@
         & img {
             height: 100px;
             margin-top: 20px;
-        }
-    }
-
-    @keyframes scroll {
-        0% {
-            transform: translateX(0px);
-        }
-
-        100% {
-            transform: translateX(-1550px);
         }
     }
 }
@@ -261,13 +263,22 @@
         }
     }
     .feed {
-        height: 250px;
-        min-width: 330px;
+        margin-left: 20px;
+        gap: 15px;
+        padding: 15px;
+        height: 200px;
+        width: 350px;
+
         & p {
-            font-size: 17px;
+            font-size: 15px;
         }
         & span {
-            font-size: 18px;
+            font-size: 16px;
+        }
+    }
+    .estrelas {
+        & svg {
+            font-size: 20px;
         }
     }
 
@@ -284,16 +295,6 @@
     .empresa {
         & img {
             height: 140px;
-        }
-    }
-
-    @keyframes scroll {
-        0% {
-            transform: translateX(0px);
-        }
-
-        100% {
-            transform: translateX(-1450px);
         }
     }
 }
@@ -353,10 +354,16 @@
 
     /*FEEDBACKS*/
     .feed {
-        height: 250px;
-        min-width: 400px;
+        margin-left: 20px;
+        gap: 15px;
+        padding: 15px;
+        height: 230px;
+        width: 430px;
 
         & p {
+            font-size: 17px;
+        }
+        & span {
             font-size: 18px;
         }
     }
@@ -372,16 +379,6 @@
     .empresa {
         & img {
             height: 150px;
-        }
-    }
-
-    @keyframes scroll {
-        0% {
-            transform: translateX(0px);
-        }
-
-        100% {
-            transform: translateX(-1600px);
         }
     }
 }
@@ -447,19 +444,25 @@
         gap: 50px 150px;
     }
 
+    /*FEEDBACKS*/
+    .feed {
+        margin-left: 30px;
+        gap: 20px;
+        padding: 15px;
+        height: 250px;
+        width: 450px;
+
+        & p {
+            font-size: 18px;
+        }
+        & span {
+            font-size: 19px;
+        }
+    }
+
     /*LOCALIZAÇÃO*/
     .localizacao {
         padding: 50px;
-    }
-
-    @keyframes scroll {
-         0% {
-            transform: translateX(0px);
-        }
-
-        100% {
-            transform: translateX(-1950px);
-        }
     }
 }
 
@@ -501,16 +504,6 @@
     .texto-sobre {
         width: 40%;
     }
-
-    @keyframes scroll {
-        0% {
-            transform: translateX(0px);
-        }
-
-        100% {
-            transform: translateX(-1800px);
-        }
-    }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
@@ -531,26 +524,4 @@
             height: 380px;
         }
     }
-    
-    @keyframes scroll {
-        0% {
-            transform: translateX(0px);
-        }
-
-        100% {
-            transform: translateX(-1700px);
-        }
-    }
-}
-
-@media screen and (min-width: 1401px) and (max-width: 1700px) {
-    @keyframes scroll {
-        0% {
-            transform: translateX(0px);
-        }
-
-        100% {
-            transform: translateX(-1500px);
-        }
-     }
 }

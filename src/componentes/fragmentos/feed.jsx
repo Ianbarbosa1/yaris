@@ -5,9 +5,8 @@ export function Feed({ texto, nome }) {
   return (
     <>
       <section className="feed">
-        <p>{texto}</p>
         <span>{nome}</span>
-
+        <p>{texto}</p>
         <div className="estrelas">
           <MdStar />
           <MdStar />

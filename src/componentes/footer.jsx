@@ -32,9 +32,13 @@ export function Footer() {
             </a>
           </div>
         </div>
-
-        <h1>Alguns dos Direitos Reservados</h1>
-        <p>Ian barbosa</p>
+    
+        <nav>
+          <h1>© Alguns dos Direitos Reservados</h1>
+          <h2>Edifício Monet, na Rua Dr. Pereira dos Santos, nº 107, salas 305 e 311, Itaboraí, Rio de Janeiro.</h2>
+        </nav>
+        
+        <a href="https://ianbarbosa1.github.io/Portfolio/" title="Acessar Portfólio">Ian barbosa</a>
       </section>
     </>
   );

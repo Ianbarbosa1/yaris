@@ -1,4 +1,6 @@
 import { Feed } from "./fragmentos/feed";
+import Marquee from "react-fast-marquee"
+
 export function Feedbacks() {
   let hora = new Date().getHours();
   let numero = "https://wa.me/5521982871429?text=";
@@ -23,12 +25,11 @@ export function Feedbacks() {
       <section className="feedbacks">
         <h1>Resultados Comprovados Pelos Nossos Pacientes</h1>
 
-        <section className="feedback-interno">
+        <Marquee pauseOnHover speed={20} className="feedback-interno">
           <Feed
             texto="Excelente profissional e equipe atenciosa demais. Venha conhecer e não se arrependerá 😍👏👏"
             nome="Vera Lucia"
           />
-
           <Feed
             texto="Atendimento nota 10, profissionais super maravilhosos. Eu amei conhecer esse lugar, não saio mais ❤️"
             nome="Tainá Nogueira"
@@ -48,7 +49,7 @@ export function Feedbacks() {
             texto="Excelentes profissionais com muita experiência, paciência e profissionalismo."
             nome="Mário Cormack"
           />
-        </section>
+        </Marquee>
 
         <a href={mensagem}>Agendar Aula Experimental</a>
       </section>
