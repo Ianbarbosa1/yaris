@@ -30,7 +30,7 @@ export function Header() {
 
       <section className="titulos-header">
         <h1>Pilates Especializado em Itaboraí</h1>
-        <p>Clínica especializada em Fisioterapia, Pilates, RPG, Acupuntura, Ventosa, entre outros. Transformando o seu bem estar.</p>
+        <p>Clínica especializada em Fisioterapia, Pilates, RPG, Acupuntura, Ventosaterapia, entre outros. Transformando o seu bem estar.</p>
         <a href={mensagem}>Agende Uma Aula</a>
       </section>
 
